@@ -1,0 +1,16 @@
+FROM python:3
+
+LABEL "com.github.actions.name"="Pytypes Python Checker"
+LABEL "com.github.actions.description"="Run pytypes to static-type-check your code."
+LABEL "com.github.actions.icon"="check-circle"
+LABEL "com.github.actions.color"="106a4e"
+LABEL "repository"="https://github.com/theahura/pytypes-action"
+LABEL "homepage"="https://github.com/theahura/pytypes-action"
+LABEL "maintainer"="Amol Kapoor <amoljaykapoor@gmail.com>"
+
+RUN pip install --upgrade pip
+RUN pip install pytypes
+
+COPY entrypoint.sh /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
