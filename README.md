@@ -16,8 +16,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: pytypes checker
       uses: theahura/pytypes-action@master
-      with:
-        args: --verbose
 ```
-
-You can pass other pytypes params using the `args` setting.
