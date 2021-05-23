@@ -16,4 +16,10 @@ jobs:
     - uses: actions/checkout@v2
     - name: pytypes checker
       uses: theahura/pytypes-action@main
+      with:
+        args: -d import-error
 ```
+
+You can add other [pytype args](https://github.com/google/pytype/blob/master/pytype/config.py) in the args section of the github workflow.
+
+Note: pytype will fail in your github workflow for thirdparty imports unless you explicitly install them beforehand. Consider using `-d import-error` to disable import checking for all files. 
