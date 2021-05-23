@@ -15,5 +15,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: pytypes checker
-      uses: theahura/pytypes-action@master
+      uses: theahura/pytypes-action@main
 ```
