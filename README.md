@@ -1,6 +1,6 @@
 # pytypes-action
 
-Run pytypes in a Github Workflow.
+Run [pytype](https://github.com/google/pytype) in a Github Workflow.
 
 ## Usage
 
