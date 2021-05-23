@@ -1,5 +1,5 @@
-name: 'Pytypes Python Checker'
-description: 'Run pytypes to static-type-check your code.'
+name: 'Pytype Python Checker'
+description: 'Run pytype to static-type-check your code.'
 author: "Amol Kapoor <amoljayakapoor@gmail.com>"
 
 branding:
