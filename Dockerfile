@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.8
 
 LABEL "com.github.actions.name"="Pytype Python Checker"
 LABEL "com.github.actions.description"="Run pytype to static-type-check your code."
