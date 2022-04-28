@@ -9,7 +9,7 @@ LABEL "homepage"="https://github.com/theahura/pytype-action"
 LABEL "maintainer"="Amol Kapoor <amoljaykapoor@gmail.com>"
 
 RUN pip install --upgrade pip
-RUN pip install pytype==2022.04.15
+RUN pip install pytype==2022.04.26
 
 COPY entrypoint.sh /entrypoint.sh
 
